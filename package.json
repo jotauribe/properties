@@ -1,0 +1,26 @@
+{
+  "name": "properties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "JotaUribe",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^4.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "sequelize": "^4.41.0",
+    "sinon": "^7.1.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.5"
+  }
+}
